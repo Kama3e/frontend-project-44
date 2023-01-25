@@ -12,12 +12,22 @@
     "url": "git+https://github.com/Kama3e/frontend-project-44.git"
   },
   "bin": {
-	    "brain-games": "bin/brain-games.js"
+    "brain-even": "./bin/brain-even.js",
+    "brain-games": "bin/brain-games.js"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kama3e/frontend-project-44/issues"
   },
-  "homepage": "https://github.com/Kama3e/frontend-project-44#readme"
+  "homepage": "https://github.com/Kama3e/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "esplint": "^0.10.1"
+  }
 }
